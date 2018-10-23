@@ -1,0 +1,1 @@
+AAGTGA	Genotype1AATCG	Genotype2ACAGA	Genotype3ACCA	Genotype4AGGAG	Genotype5
