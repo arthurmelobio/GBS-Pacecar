@@ -22,7 +22,7 @@ The flags **`–mind`** and **`–maxd`** control the depth, such that there wil
 
 GBS-PaceCar can produce two kinds of outputs. The first is a single compressed FASTQ file of all raw, barcoded NGS sequences, as they would appear off the sequencer, post CASAVA processing. To produce this output, the ***Raw*** option must be used as the first argument in the command line; and a [barcode ID file](https://github.com/halelab/GBS-Pacecar/blob/master/barcodeID.txt) (**`-b`**) is required. 
 The barcode ID file is a two-column, tab-delimited file with the barcode sequences in the first column and the genotype names in the second. The number of rows in this file must match the number of genotypes declared using the **`-g`** flag. 
-Once the reads are simulated for each individual, the appropriate barcode sequences are attached, followed by the PstI cut site, allowing standard demultiplexing and analysis via common de novo GBS bioinformatic tools like TASSEL-UNEAK (Lu et al. 2013) and GBS-SNP-CROP (Melo et al., 2016).
+Once the reads are simulated for each individual, the appropriate barcode sequences are attached, followed by the PstI cut site, allowing standard demultiplexing and analysis via common de novo GBS bioinformatic tools like TASSEL-UNEAK (Lu et al. 2013) and [GBS-SNP-CROP](https://github.com/halelab/GBS-SNP-CROP) (Melo et al., 2016).
 If the first argument of the command line is ***Parsed***, the genotype output mode is activated. In this mode, only the high-quality, processed sequences (i.e. trimmed of barcodes, restriction cut sites, and Illumina adapters) are produced. 
 These parsed sequences are compressed into individual FASTQ files, one for each genotype (**`-g`**). If both outputs are desired, the option ***Both*** can be used. 
 
