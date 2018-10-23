@@ -74,7 +74,7 @@ The GBS fragments will range from 40-150 bp in length, and the read depth for al
 The output will consist of: 1) 1 large, compressed FASTQ file containing all raw, unprocessed reads for all 5 individuals (Raw); and 2) 5 compressed FASTQ files, one for each individual, containing all processed and trimmed reads (Parsed).
 
 ### References
-Bradbury PJ, et al. (2007) TASSEL: Software for association mapping of complex traits in diverse samples. Bioinformatics, 23:2633-2635.  
-Lu F, et al. (2013) Switchgrass genomic diversity, ploidy, and evolution: novel insights from a network-based SNP discovery protocol. PLoS Genetics, DOI: 10.1371/journal.pgen.1003215.  
-Melo ATO, et al. (2016) GBS-SNP-CROP: a reference-optional pipeline for SNP discovery and plant germplasm characterization using variable length, paired-end genotyping-by-sequencing data. BMC Bioinformatics, DOI: https://doi.org/10.1186/s12859-016-0879-y.  
-Poland JA, et al. (2012) Development of high-density genetic maps for barley and wheat using a novel two-enzyme Genotyping-by- Sequencing approach. PLoS One, doi:10.1371/journal.pone.0032253.
+- Bradbury PJ, et al. (2007) TASSEL: Software for association mapping of complex traits in diverse samples. Bioinformatics, 23:2633-2635.
+- Lu F, et al. (2013) Switchgrass genomic diversity, ploidy, and evolution: novel insights from a network-based SNP discovery protocol. PLoS Genetics, DOI: 10.1371/journal.pgen.1003215.  
+- Melo ATO, et al. (2016) GBS-SNP-CROP: a reference-optional pipeline for SNP discovery and plant germplasm characterization using variable length, paired-end genotyping-by-sequencing data. BMC Bioinformatics, doi:10.1186/s12859-016-0879-y.  
+- Poland JA, et al. (2012) Development of high-density genetic maps for barley and wheat using a novel two-enzyme Genotyping-by- Sequencing approach. PLoS One, doi:10.1371/journal.pone.0032253.
